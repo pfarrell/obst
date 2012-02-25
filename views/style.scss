@@ -6,6 +6,23 @@ body {
   font-size: 1.5em;
   text-align:center;
   }
+div{
+  margin-top:auto;
+}
+a#reload {
+  padding: .4em;
+  border: .25em solid black;
+  -mox-border-radius: 15px;
+  border-radius: 20px;
+  font-size:2em;
+}
+
+a#reload:hover {
+  color:white;
+  background-color:black;
+  border-color:grey;
+  cursor:pointer;
+}
 div#content{
   margin-left:2.5%;
   margin-right:2.5%;
@@ -15,7 +32,7 @@ div#container
   margin-top:10%;
   margin-left:auto;
   margin-right:auto;
-  font-size:4.5em;
+  font-size:3.5em;
   min-height:5em;
   line-height:1.1em;
   display:inline-block;
@@ -26,6 +43,7 @@ div#container
   background-color: #44973c;
   padding-bottom:.4em;
   padding-left:.5em;
+  display:block;
   }
 
 @media handheld, only screen and (max-width: 480px) {
