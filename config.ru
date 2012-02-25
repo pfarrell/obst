@@ -1,6 +1,6 @@
 require 'sinatra'
-require File.expand_path("./lib/application")
+require './application'
 
 set :run, false
 
-run Application
+run Sinatra::Application
