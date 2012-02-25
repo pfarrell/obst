@@ -22,7 +22,10 @@ a.lnk{
   font-size:2em;
   width:50%;
 }
-
+a.lnk:visited{
+  background-color: #f7f6f3;
+  color:#1A2421;
+}
 a.lnk:hover {
   color: #f7f6f3;
   background-color:#1A2421;
