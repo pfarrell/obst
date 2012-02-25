@@ -6,25 +6,21 @@ body {
   text-align:center;
   }
 div{
-  margin-top:auto;
 }
-div.btn {
-  display:inline-block;
-  width:3em;
-}
-.arrow {
-  width:5px;
-}
-.quest {
-  width:5px;
-}
-a.lnk{
+span.btn {
   padding-top:.2em;
   padding-left:.8em;
   padding-right:.8em;
   padding-bottom:.2em;
-  font-size:2em;
   display:inline-block;
+}
+.arrow {
+}
+.quest {
+}
+a.lnk{
+  font-size:2em;
+  width:50%;
 }
 
 a.lnk:hover {
@@ -33,8 +29,7 @@ a.lnk:hover {
   cursor:pointer;
 }
 div#content{
-  margin-left:2.5%;
-  margin-right:2.5%;
+  min-height:8em;
 }
 div#container
 {
@@ -45,12 +40,11 @@ div#container
   font-size:3.5em;
   height:3.5em;
   line-height:1.1em;
-  display:inline-block;
 }
 
 .header {
   background-color: #21ABCD;
-  display:block;
+  padding:.15em;
   }
 
 @media handheld, only screen and (max-width: 480px) {
@@ -61,7 +55,7 @@ div#container
   margin-left:auto;
   margin-right:auto;
   font-size:2em;
-  min-height:4em;
+  min-height:8em;
   line-height:1.1em;
   display:inline-block;
 }
