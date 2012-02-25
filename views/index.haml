@@ -8,13 +8,14 @@
   %div.fourcol
     &nbsp;
   %div.twocol
-    %a#reload
-      &rArr;
-  %div.twocol
-    %span#about
-      what is this?
-  %div.fourcol.last
-    &nbsp;
+    %div.btn.arrow
+      %a#reload.lnk
+        &rArr;
+  %div.twocol.last
+    %div.btn.quest
+      %a#about.lnk
+        ?
+
 :javascript
   $('#reload').bind('click', function() {
     var stratagem = $('#stratagem')
