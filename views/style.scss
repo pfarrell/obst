@@ -8,27 +8,27 @@ body {
 div{
 }
 span.btn {
+  display:inline-block;
+  background-color:#55CBE6;
+  border-radius:15px;
+  border: .05em solid black;
+}
+.arrow {
+  padding-top:.2em;
+  padding-left:.6em;
+  padding-right:.6em;
+  padding-bottom:.2em;
+}
+.quest {
   padding-top:.2em;
   padding-left:.8em;
   padding-right:.8em;
   padding-bottom:.2em;
-  display:inline-block;
-}
-.arrow {
-}
-.quest {
 }
 a.lnk{
   font-size:2em;
-  width:50%;
-}
-a.lnk:visited{
-  background-color: #f7f6f3;
-  color:#1A2421;
 }
 a.lnk:hover {
-  color: #f7f6f3;
-  background-color:#1A2421;
   cursor:pointer;
 }
 div#content{
@@ -61,6 +61,10 @@ div#container
   min-height:8em;
   line-height:1.1em;
   display:inline-block;
+}
+a.lnk:hover {
+  color: #1A2421;
+  background-color: #21ABCD;
 }
 
 }
