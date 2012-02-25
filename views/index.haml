@@ -1,2 +1,40 @@
-%div#container
-  =@stratagem
+%div.row
+  %div.onecol
+    %span#reload
+      new one
+  %div.tencol
+    %div#container
+      %span#stratagem
+  %div.onecol.last
+    %span#about
+      what is this?
+:javascript
+  $('#reload').bind('click', function() {
+    var stratagem = $('#stratagem')
+    $.post(
+      "#{url_for('/')}",
+      '',
+      function(INFO) {
+        stratagem.data('fsr', INFO);
+        set_stratagem(stratagem);
+      },
+      'json'
+    );
+  });
+  $('#stratagem').each(function(i) {
+    var stratagem = $('#stratagem');
+    $.post(
+      "#{url_for('/')}",
+      '',
+      function(INFO) {
+        $(stratagem).data('fsr', INFO);
+        set_stratagem(stratagem);
+      },
+      'json'
+    );
+  });
+  function set_stratagem(stratagem){
+    $('#stratagem').text(stratagem.data('fsr').gem);
+  }
+ 
+  

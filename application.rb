@@ -1,14 +1,19 @@
 require 'sinatra' 
 require 'haml'
 require './obst'
+require 'json'
 
 gem 'emk-sinatra-url-for'
 require 'sinatra/url_for'
 
 get "/" do
-  rast = Stratagems.all.sample
-  @stratagem ||= rast.data
   haml :index
+end
+
+post '/' do
+  content_type :json
+  stratagem = Stratagems.all.sample
+  { :gem => stratagem.gem}.to_json
 end
 
 get '/style.css' do

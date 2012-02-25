@@ -21,9 +21,9 @@ end
   
 
 class Stratagem
-  attr_reader :data
+  attr_reader :gem
 
-  def initialize data
-    @data= data
+  def initialize gem
+    @gem= gem
   end
 end
