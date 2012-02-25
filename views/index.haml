@@ -1,13 +1,20 @@
 %div.row
   %div.onecol
-    %a#reload
-      &rArr;
-  %div.tencol
+    &nbsp;
+  %div.tencol.last
     %div#container
       %span#stratagem
-  %div.onecol.last
+%div.row
+  %div.fourcol
+    &nbsp;
+  %div.twocol
+    %a#reload
+      &rArr;
+  %div.twocol
     %span#about
       what is this?
+  %div.fourcol.last
+    &nbsp;
 :javascript
   $('#reload').bind('click', function() {
     var stratagem = $('#stratagem')
