@@ -1,7 +1,6 @@
 body {
-  /*background: url("/images/bg_hdr.gif") repeat-x scroll 0 0 transparent;*/
   background-color: #f7f6f3;
-  color: #110000;
+  color: #1A2421;
   font-family: "Cabin";
   font-size: 1.5em;
   text-align:center;
@@ -14,26 +13,23 @@ div.btn {
   width:3em;
 }
 .arrow {
-  color:orange;
   width:5px;
 }
 .quest {
   width:5px;
 }
 a.lnk{
+  padding-top:.2em;
   padding-left:.8em;
   padding-right:.8em;
+  padding-bottom:.2em;
   font-size:2em;
-  border-color: black;
-  border-style: solid;
-  border-width: 0 .25em 0 .25em;
   display:inline-block;
 }
 
 a.lnk:hover {
-  color:white;
-  background-color:black;
-  border-color:grey;
+  color: #f7f6f3;
+  background-color:#1A2421;
   cursor:pointer;
 }
 div#content{
@@ -53,10 +49,7 @@ div#container
 }
 
 .header {
-  padding-right: .25em;
-  background-color: #44973c;
-  padding-bottom:.4em;
-  padding-left:.5em;
+  background-color: #21ABCD;
   display:block;
   }
 
