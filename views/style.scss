@@ -4,7 +4,17 @@ body {
   color: #110000;
   font-family: "Cabin";
   font-size: 1.5em;
+  text-align:center;
   }
+
+div#container
+{
+  margin-top:10%;
+  margin-left:auto;
+  margin-right:auto;
+  width:80%;
+  font-size:5em;
+}
 
 a {
   &:link { text-decoration: none;}
