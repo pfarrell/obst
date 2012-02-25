@@ -1,0 +1,10 @@
+source "http://rubygems.org"
+
+gem "rack", "1.3.5"
+gem "sinatra", "1.3.1"
+gem "mongo_mapper"
+gem "haml"
+gem "sass"
+gem "json"
+gem "bson_ext"
+gem "emk-sinatra-url-for"
