@@ -66,7 +66,7 @@ div#container
   margin-top:1%;
   margin-left:auto;
   margin-right:auto;
-  font-size:2em;
+  font-size:1.6em;
   min-height:8em;
   line-height:1.1em;
   display:inline-block;
@@ -74,6 +74,14 @@ div#container
 a.lnk:hover {
   color: #1A2421;
   background-color: #21ABCD;
+}
+
+.dialog { 
+  text-align:left;
+  font-size:.6em;
+  line-height:1em;
+}
+.dialog p {
 }
 
 }
