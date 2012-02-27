@@ -50,6 +50,14 @@ div#container
   background-color: #21ABCD;
   padding:.15em;
   }
+.ui-dialog-titlebar { display:none; }
+.dialog { 
+  text-align:left;
+  font-size:.8em;
+}
+.dialog p {
+  margin-top:1em;
+}
 
 @media handheld, only screen and (max-width: 480px) {
 
