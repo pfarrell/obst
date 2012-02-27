@@ -2,7 +2,7 @@ body {
   background-color: #f7f6f3;
   color: #1A2421;
   font-family: "Cabin";
-  font-size: 1.5em;
+  font-size: 1.8em;
   text-align:center;
   }
 div{
@@ -11,28 +11,28 @@ span.btn {
   display:inline-block;
   background-color:#55CBE6;
   border-radius:15px;
-  border: .05em solid black;
+  border: .1em solid black;
 }
 .arrow {
-  padding-top:.2em;
-  padding-left:.6em;
-  padding-right:.6em;
-  padding-bottom:.2em;
+  padding-top:.1em;
+  padding-left:.5em;
+  padding-right:.5em;
+  padding-bottom:.1em;
 }
 .quest {
-  padding-top:.2em;
-  padding-left:.8em;
-  padding-right:.8em;
-  padding-bottom:.2em;
+  padding-top:.1em;
+  padding-left:.7em;
+  padding-right:.7em;
+  padding-bottom:.1em;
 }
-a.lnk{
-  font-size:2em;
+a.lnk {
+  padding:.5em;
 }
 a.lnk:hover {
   cursor:pointer;
 }
 div#content{
-  min-height:8em;
+  min-height:10em;
 }
 div#container
 {
@@ -43,6 +43,7 @@ div#container
   font-size:3.5em;
   height:3.5em;
   line-height:1.1em;
+  min-height:6em;
 }
 
 .header {
