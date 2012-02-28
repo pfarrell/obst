@@ -14,10 +14,10 @@ span.btn {
   border: .1em solid black;
 }
 .arrow {
-  padding-top:.1em;
+  padding-top:.05em;
   padding-left:.5em;
   padding-right:.5em;
-  padding-bottom:.1em;
+  padding-bottom:.05em;
 }
 .quest {
   padding-top:.1em;
@@ -36,7 +36,7 @@ div#content{
 }
 div#container
 {
-  margin-top:4%;
+  margin-top:6%;
   margin-botton:6%;
   margin-left:auto;
   margin-right:auto;
@@ -44,6 +44,9 @@ div#container
   height:3.5em;
   line-height:1.1em;
   min-height:6em;
+}
+div#container:hover{
+  cursor:pointer;
 }
 
 .header {
@@ -53,6 +56,7 @@ div#container
 .ui-dialog-titlebar { display:none; }
 .dialog { 
   text-align:left;
+  border-radius:25px;
   font-size:.8em;
 }
 .dialog p {
@@ -78,10 +82,7 @@ a.lnk:hover {
 
 .dialog { 
   text-align:left;
-  font-size:.6em;
-  line-height:1em;
-}
-.dialog p {
+  font-size:.8em;
 }
 
 }

@@ -1,35 +1,6 @@
 %div.row
   %div.onecol
-    &nbsp;
   %div.tencol.last
     %div#container
       %span#stratagem
 
-:javascript
-  $('#reload').bind('click', function() {
-    var stratagem = $('#stratagem')
-    $.post(
-      "#{url_for('/')}",
-      '',
-      function(INFO) {
-        stratagem.data('fsr', INFO);
-        set_stratagem(stratagem);
-      },
-      'json'
-    );
-  });
-  $('#stratagem').each(function(i) {
-    var stratagem = $('#stratagem');
-    $.post(
-      "#{url_for('/')}",
-      '',
-      function(INFO) {
-        $(stratagem).data('fsr', INFO);
-        set_stratagem(stratagem);
-      },
-      'json'
-    );
-  });
-  function set_stratagem(stratagem){
-    $('#stratagem').text(stratagem.data('fsr').gem);
-  }

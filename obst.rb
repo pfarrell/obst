@@ -1,7 +1,7 @@
 %w(json httparty).each { |dependency| require dependency }
 
 class Stratagems
-  CACHE_TIME = 10
+  CACHE_TIME = 3600
 
   def self.all
     if @strat.nil? || Time.now > (@last_download + CACHE_TIME)

@@ -6,7 +6,8 @@
     %meta{:charset => "utf-8"}
     %meta{:name => "viewport", :content=>"width=device-width, initial-scale=1, maximum-scale=1"}
     %meta{:name => "apple-mobile-web-app-capable", :content=>"yes"}
-    %script{:type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"}
+    %meta{"http-equiv"=>"X-UA-Compatible", :content=>"IE=EmulateIE7"}
+    %script{:type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"}
     %script{:type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"}
     %link{:rel => "stylesheet", :href => "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/themes/base/jquery-ui.css", :type => "text/css"}
     %link{:rel => "stylesheet", :href => "http://fonts.googleapis.com/css?family=Cabin", :type => "text/css", :media => "all"}
@@ -30,3 +31,31 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
+
+  $('#container').bind('click', function() {
+    var stratagem = $('#stratagem');
+    $.post(
+      "#{url_for('/')}",
+      '{}',
+      function(INFO) {
+        stratagem.data('fsr', INFO);
+        set_stratagem(stratagem);
+      },
+      'json'
+    );
+  });
+  $('#container').each(function(i) {
+    var stratagem = $('#stratagem');
+    $.post(
+      "#{url_for('/')}",
+      '{}',
+      function(INFO) {
+       stratagem.data('fsr', INFO);
+        set_stratagem(stratagem);
+      },
+      'json'
+    );
+  });
+  function set_stratagem(stratagem){
+    $('#stratagem').text(stratagem.data('fsr').gem);
+  }

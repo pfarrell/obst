@@ -1,15 +1,12 @@
 %div.row
   %div.fourcol
   %div.fourcol.last
-    %a#reload.lnk
-      %span.btn.arrow
-        &rArr;
     %a#about.lnk
       %span.btn.quest
         ?
 %div#dialog.dialog{:style=>'display:none'}
-  %p
-    Oblique stratagems answers without questions.
+  %p{:style=>'font-size:1.2em;text-align:center'}
+    Oblique stratagems are answers without questions.
     You provide the context.
   %p
     Totally inspired by 
@@ -17,30 +14,31 @@
       Brian Eno's 
     %a{:href=>'http://www.rtqe.net/ObliqueStrategies/'}
       Oblique Strategies
-    (which was more for 
-    musician's writer's block)
   %p
     The title comes from 
     %a{:href=>'http://www.youtube.com/watch?v=E7ISc-b-6CE#t=0m9s'}
       MGMT's song 
     about Mr. Eno, himself.
+  %p{:style=>'margin-top:2em;text-align:center'}
+    %u
+      Click to close/reload
 
 :javascript
   // dialog stuff
   $(document).ready(function(){
-    $('#about').click(function(){
-      showAbout();
-    });
-    $('#dialog').click(function(){
-      $(this).dialog("close");
-    });
+  $('#about').click(function(){
+    showAbout();
+  });
+  $('#dialog').click(function(){
+    $(this).dialog("close");
+  });
   });
 
   function showAbout() {
     $('#dialog').dialog({
       modal: true,
       resizable: false,
-      width: 300
+      width: 500
 
     });
   }
