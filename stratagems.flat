@@ -10,16 +10,17 @@ Change your display to black and white
 Divide and conquer
 Delegate it
 Write it down and move on
+Move on it
 Unplug your internet connection
 Does it matter?
 Handle it
 Deliver
 Ship it
-How long can you go without starting a new instance?
+How long can it go without restart?
 Unplug
-A new developer adds random pauses to every one of your functions
+A new developer adds random pauses to every function
 Ask for it and move on
-120 chars/line, 8 lines/function unless you can argue why not
+120 chars/line, 20 lines/function
 Don't ask the data store
 Ask the cache
 You already have it
@@ -51,8 +52,10 @@ You don't need it
 Explain it to a child
 Halve the words
 Do it without any form of login
-lynx is your browser for the next day
+Browse with lynx for the next day
 Cut your bootup in half
+Don't trust the input?
+It will change
 How do you measure it?
 What can't you measure?
 What are you selling?
@@ -74,3 +77,5 @@ Programming is exception handling
 Change it or return it
 Rise above it or drown
 Identify the single point of failure
+Don't use 'I' when talking about code
+Here's $50,000 and 3 months.  What do you build?
