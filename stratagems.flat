@@ -38,12 +38,12 @@ Do it without a middle tier
 Do it without loops
 Do it without disk IO
 Associative arrays can build many things
-Use a stack.
-Use only hashes and loops.
-Find the research paper on it.
+Use a stack
+Use only hashes and loops
+Find the research paper on it
 Everything in one unterminating loop... Everything
 Do it all in one function, no if statements
-Code creates chaos, remove chaos.
+Code creates chaos, remove chaos
 Remove the chaos
 Handle it
 Make it recursive
@@ -62,9 +62,9 @@ Measure it
 Measure productivity
 The least interesting aspect of David is what tools Michelangelo used
 Does it matter?
-The greatest thing you've experienced? Do that.
+The greatest thing you've experienced? Do that
 You are dead. Who cares?
-99.9% of everything is gone and forgotten in 100 years. Use that to your advantage.
+99.99% of everything is gone in 100 years
 How long till a reboot?
 Switch the language
 Don't switch the language
@@ -73,3 +73,4 @@ Is it solvable or not solvable?
 Programming is exception handling
 Change it or return it
 Rise above it or drown
+Identify the single point of failure
