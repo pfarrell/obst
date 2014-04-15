@@ -20,7 +20,7 @@ How long can it go without restart?
 Unplug
 A new developer adds random pauses to every function
 Ask for it and move on
-120 chars/line, 10 lines/function
+80 chars/line, 5 lines/function
 Don't ask the data store
 Ask the cache
 You already have it
@@ -105,4 +105,7 @@ What shouldn't you do?
 What did they do before?
 Who benefits
 Who are your users
+You are not code
+So?
+Show it
 
