@@ -1,8 +1,8 @@
 source "http://rubygems.org"
 ruby "2.6.5"
 
-gem "rack", "1.3.5"
-gem "sinatra", "1.3.1"
+gem "rack", ">= 2.1.4"
+gem "sinatra", ">=2.1.0"
 gem "mongo_mapper"
 gem "haml"
 gem "sass"
